@@ -1,11 +1,11 @@
 repeat task.wait(1) until game and game.Players.LocalPlayer and game:IsLoaded()
 
-getgenv().Key = "" -- Nhập key của bạn vô đây
+getgenv().Key = "4e5c3a500a21521a0cf5b4b7" -- Nhập key của bạn vô đây
 _G.Configs = {
     Performance = {
         WhiteScreen = false, -- Chỉnh màn hình trắng
         BlackScreen = {
-            Enabled = true, -- chỉnh bảng trạng thái săn
+            Enabled = false, -- chỉnh bảng trạng thái săn
             Font = Enum.Font.FredokaOne, -- Chỉnh kiểu chữ
             Transparency = 0.5, -- Chỉnh độ trong suốt
         },
@@ -113,7 +113,7 @@ _G.Configs = {
                 Console = false, -- Hiển thị file lỗi khi đang săn, hỗ trợ dev fix bugs
                 PlayerStatus = true, -- Hiển thị thông tin khi săn
             },
-            URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
+            URL = "https://discord.com/api/webhooks/1309819533648728074/IIzdSNbWCsQUyKGi39SEVRVwD3puw_j38s1k7geb_H8QQNQhGIosDyC4D0GdHR9Ofsr_",
         },
         RandomATK = 35,
         Limited = 45, -- Giới hạn thời gian săn 1 người là 45 giây
