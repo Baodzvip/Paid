@@ -5,9 +5,9 @@ _G.Configs = {
     Performance = {
         WhiteScreen = false, -- Chỉnh màn hình trắng
         BlackScreen = {
-            Enabled = false, -- chỉnh bảng trạng thái săn
+            Enabled = true, -- chỉnh bảng trạng thái săn
             Font = Enum.Font.FredokaOne, -- Chỉnh kiểu chữ
-            Transparency = 0.5, -- Chỉnh độ trong suốt
+            Transparency = 0.3, -- Chỉnh độ trong suốt
         },
     },
     allowed_actions = {
