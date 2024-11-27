@@ -12,7 +12,7 @@ _G.Configs = {
     },
     allowed_actions = {
         AutoBounty = true,
-        Team = "Pirates", -- Chỉnh đội để săn ví dụ: Pirates / Marines
+        Team = "Marines", -- Chỉnh đội để săn ví dụ: Pirates / Marines
         Continue = 5, -- Nếu người chơi không trong combat trong 5 giây thì bỏ qua
         Dodge = true, -- Né tránh đòn tấn công từ đối phương
         Ken = true, -- Tự động bật ken
