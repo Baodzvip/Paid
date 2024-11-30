@@ -10,7 +10,7 @@ _G.Configs = {
     },
     allowed_actions = {
         AutoBounty = true,
-        Team = "Pirates", -- Chỉnh đội để săn ví dụ: Pirates / Marines
+        Team = "Marines", -- Chỉnh đội để săn ví dụ: Pirates / Marines
         Continue = 5, -- Nếu người chơi không trong combat trong 5 giây thì bỏ qua
         Dodge = true, -- Né tránh đòn tấn công từ đối phương
         Ken = true, -- Tự động bật ken
@@ -100,10 +100,10 @@ _G.Configs = {
         AutoView = true, -- Tự động quan sát người bị săn
         SafeZone = {
             Enabled = true,
-            Max = 40000, -- Độ cao sẽ bỏ chạy và đến, khi bị đánh như 1 con chó
+            Max = 50000, -- Độ cao sẽ bỏ chạy và đến, khi bị đánh như 1 con chó
             ProtectCD = true,
-            HighestHealth = 50, -- Khi lượng máu được hồi phục tầm 50% sẽ quay lại chiến tiếp
-            LowestHealth = 40, -- Máu thấp nhất sẽ bắt đầu chạy như 1 con chó
+            HighestHealth = 65, -- Khi lượng máu được hồi phục tầm 50% sẽ quay lại chiến tiếp
+            LowestHealth = 55, -- Máu thấp nhất sẽ bắt đầu chạy như 1 con chó
         },
         Webhook = {
             Enabled = true,
@@ -111,13 +111,13 @@ _G.Configs = {
                 Console = false, -- Hiển thị file lỗi khi đang săn, hỗ trợ dev fix bugs
                 PlayerStatus = true, -- Hiển thị thông tin khi săn
             },
-            URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
+            URL = "",
         },
         RandomATK = 35,
-        Limited = 45, -- Giới hạn thời gian săn 1 người là 45 giây
+        Limited = 50, -- Giới hạn thời gian săn 1 người là 45 giây
         MethodClicks = {
             Melee = true, -- Vũ khí sẽ được chọn để click
-            CanM1At = 9000, -- Có thể bắt đầu click khi người bị săn còn 9000 máu
+            CanM1At = 8500, -- Có thể bắt đầu click khi người bị săn còn 9000 máu
             Count = 6, -- Chiêu thức được tung ra đủ 6 lần sẽ bắt đầu click
             Gun = true, -- Vũ khí sẽ được chọn để click
             Delay = 0.15, -- Độ trễ khi click
